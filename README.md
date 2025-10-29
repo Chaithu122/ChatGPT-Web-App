@@ -14,7 +14,7 @@ Users can type messages into the chat UI, and the message is sent to the backend
 
 You can access the hosted version of the ChatGPT Web App using the link below:
 
-👉🌐 [LiveDemo]( https://chaithu122.github.io/Weather-App/)
+👉🌐 [LiveDemo]( https://unvacated-nonheretical-myra.ngrok-free.dev/)
 
 ## ✨ Features
 
