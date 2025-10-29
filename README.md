@@ -108,7 +108,62 @@ node server.js
 http://localhost:3000
 ```
 
-## 💬 Usage
+## 📌 Usage
+
+- Open the application in your browser
+- Type your question or prompt in the input field
+- Click the **Send** / **Submit** button
+- Wait for the AI to generate and display the response
+- Continue the conversation in real-time as a chat
+
+## 🔑 API Key Usage
+
+- This project communicates with the OpenAI API to generate AI responses.
+- To use the application, you must provide a valid OpenAI API key.
+- The API key is used only for sending requests securely from the backend (Node.js).
+- Do not expose your API key in the frontend (HTML/JS) — always keep it in a .env file or server code.
+- Example of .env file:
+```
+OPENAI_API_KEY=your_api_key_here
+```
+- Never push your API key to GitHub — remove it or use .gitignore.
+
+## 📸 Screenshots
+
+Below are some preview screens from the ChatGPT Web App  help to understand the UI and overall workflow
+
+### 🏠 Home Screen
+
+<img src="https://github.com/user-attachments/assets/a87a50e7-babf-4872-9a0d-487f7fa41c5b" alt="homepage"/>
+
+### 💬 Chat Response Screen
+<img src="https://github.com/user-attachments/assets/f2ff18ad-cc73-4b7d-bf27-3200782c568e" alt="chatpage1"/>
+<img src="https://github.com/user-attachments/assets/d5b9efca-93b4-47cb-9037-8e66b19d47ec" alt="chatpage2"/>
+<img src="https://github.com/user-attachments/assets/3165d755-a808-49e6-ac75-d79e2d6f8cac" alt="chatpage3"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
 
 
 
