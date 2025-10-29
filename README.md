@@ -141,6 +141,43 @@ Below are some preview screens from the ChatGPT Web App  help to understand the 
 <img src="https://github.com/user-attachments/assets/d5b9efca-93b4-47cb-9037-8e66b19d47ec" alt="chatpage2"/>
 <img src="https://github.com/user-attachments/assets/3165d755-a808-49e6-ac75-d79e2d6f8cac" alt="chatpage3"/>
 
+## 🧠 How It Works
+
+- The frontend (HTML/CSS/JS) captures user prompts and sends them to the backend
+- The backend (Node.js) receives the prompt and reads the API key from .env
+- A request is sent to the OpenAI API using the secure API key
+- The AI response is returned from the backend to the frontend
+- The response is displayed dynamically in a chat-style interface
+
+## 👨‍💻 Author
+
+**Krishna Chaithanya Pigilapu** 
+
+Java Full Stack Developer-Fresher
+
+**Core Skills:**
+
+Java • Spring Boot • REST APIs • HTML • CSS • JavaScript • React • SQL • Git & GitHub
+
+**About Me:**  
+
+Passionate fresher with strong fundamentals in backend and frontend development, actively looking for an entry-level developer role to apply skills and grow in a real-world environment.
+
+📧 Email: pigilapuchaithanya123@gmail.com 
+
+🔗 GitHub: github.com/Chaithu122
+
+🔗 LinkedIn:linkedin.com/in/krishna-chaithanya-pigilapu-655563349
+
+
+
+
+
+
+
+
+
+
 
 
 
