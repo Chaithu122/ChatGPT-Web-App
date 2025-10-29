@@ -165,9 +165,24 @@ Passionate fresher with strong fundamentals in backend and frontend development,
 
 📧 Email: pigilapuchaithanya123@gmail.com 
 
-🔗 GitHub: github.com/Chaithu122
+🔗 GitHub:https://github.com/Chaithu122
 
-🔗 LinkedIn:linkedin.com/in/krishna-chaithanya-pigilapu-655563349
+🔗 LinkedIn:https://linkedin.com/in/krishna-chaithanya-pigilapu-655563349
+
+## 📬 Connect With Me
+
+If you found this project interesting or would like to discuss opportunities, feel free to connect with me:
+
+- 🔗 [LinkedIn](https://www.linkedin.com/in/krishna-chaithanya-pigilapu-655563349/)
+- 📧 [Email](pigilapuchaithanya123@gmail.com)
+- 💻 [GitHub](https://github.com/Chaithu122)
+
+## 🚀 Open to Opportunities
+
+- Thank you for reviewing my project. I am a dedicated fresher with strong fundamentals and a constant learning mindset, looking for an opportunity to apply my skills in a professional environment.  
+- I would be glad to connect and discuss how I can contribute to your team.
+
+
 
 
 
