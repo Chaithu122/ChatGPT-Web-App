@@ -14,16 +14,16 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-// Serve static files from the root directory
+
 app.use(express.static(__dirname));
 
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "index.html"));
 });
 
-const SAMBANOVA_API_KEY = process.env.SAMBANOVA_API_KEY;
-if (!SAMBANOVA_API_KEY) {
-  console.error("❌ ERROR: SAMBANOVA_API_KEY is missing in .env");
+const apikey = process.env.apikey;
+if (!apikey) {
+  console.error("ERROR: apikey is missing in .env");
   process.exit(1);
 }
 
@@ -35,7 +35,7 @@ app.post("/api/chat", async (req, res) => {
     }
 
     const bodyPayload = {
-      model: "Meta-Llama-3.3-70B-Instruct",  // example model name — make sure you have access to it
+      model: "Meta-Llama-3.3-70B-Instruct",  
       messages: [
         { role: "system", content: "You are a helpful assistant." },
         { role: "user", content: `${message} in ${language || "English"}` }
@@ -47,7 +47,7 @@ app.post("/api/chat", async (req, res) => {
     const response = await fetch("https://api.sambanova.ai/v1/chat/completions", {
       method: "POST",
       headers: {
-        "Authorization": `Bearer ${SAMBANOVA_API_KEY}`,
+        "Authorization": `Bearer ${apikey}`,
         "Content-Type": "application/json"
       },
       body: JSON.stringify(bodyPayload)
@@ -56,8 +56,8 @@ app.post("/api/chat", async (req, res) => {
     const data = await response.json();
 
     if (!response.ok) {
-      console.error("SambaNova API error:", data);
-      return res.status(response.status).json({ error: data.error?.message || "SambaNova API error" });
+      console.error(" API error:", data);
+      return res.status(response.status).json({ error: data.error?.message || " API error" });
     }
 
     const reply = data.choices?.[0]?.message?.content || "No reply received.";
