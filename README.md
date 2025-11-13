@@ -19,7 +19,7 @@ You can access the hosted version of the ChatGPT Web App using the link below:
 ## ✨ Features
 
 - 💬 Real-time AI conversation using OpenAI ChatGPT API
-- 🌐 Built with Node.js backend + HTML/CSS/JavaScript fronten
+- 🌐 Built with Node.js backend + HTML/CSS/JavaScript frontend
 - 🧾 Secure API handling via server
 - 🎨 Responsive and clean UI for smooth chat experience
 - ⚡ Fast request-response using fetch() integration
